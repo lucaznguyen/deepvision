@@ -1,0 +1,4 @@
+- dataset=cifar10
+- model=resnet18
+- run.device=cuda
+- run.epochs=2

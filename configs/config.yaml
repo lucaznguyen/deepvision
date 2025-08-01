@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - dataset: cifar100          # override at runtime: dataset=tiny_imagenet
+  - model: resnet18            # override at runtime: model=vit_tiny
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+
+run:
+  epochs: 90
+  batch_size: 128
+  lr: 0.1
+  device: ${oc.env:DEVICE,cuda}

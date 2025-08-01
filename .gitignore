@@ -1,0 +1,101 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.ipynb_checkpoints/
+
+# === Environment & Packaging ===
+.env
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === PyInstaller ===
+*.spec
+dist/
+build/
+
+# === Logs and Reports ===
+*.log
+*.out
+*.err
+*.pid
+
+# === Unit test / coverage ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+pytest_cache/
+
+# === VS Code ===
+.vscode/
+
+# === JetBrains IDEs ===
+.idea/
+
+# === macOS ===
+.DS_Store
+
+# === Linux ===
+*~
+
+# === Large files ===
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.npz
+*.npy
+*.pb
+*.tflite
+*.weights
+*.onnx
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# === Datasets and Data Artifacts ===
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.pkl
+*.joblib
+
+# === Model outputs and temp files ===
+checkpoints/
+runs/
+output/
+logs/
+results/
+tmp/
+temp/
+
+# === Notebooks output ===
+*.nbconvert.ipynb
+
+# === GitHub Copilot / OpenAI cache (if used) ===
+.gpt_cache/
+
+# === System ===
+Thumbs.db
+ehthumbs.db
+Icon?

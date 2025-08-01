@@ -1,0 +1,4 @@
+name: tiny_imagenet
+num_classes: 200
+root: ./data/tiny-imagenet-200
+cache: true          # write & use HDF5 cache if available

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepvision"
+version = "0.1.0"
+dependencies = [
+    "torch>=2.2.0",
+    "torchvision>=0.17.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "tensorboard>=2.16",
+    "pytest>=8.2",
+    "hydra-core>=1.3",
+    "omegaconf>=2.3",
+    "scikit-learn>=1.5",
+    "timm>=0.9",        # for WideResNet & ViT convenience
+]

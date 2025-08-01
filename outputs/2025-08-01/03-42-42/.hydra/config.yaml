@@ -1,0 +1,12 @@
+run:
+  epochs: 2
+  batch_size: 128
+  lr: 0.1
+  device: gpu
+dataset:
+  name: cifar10
+  num_classes: 10
+  root: ./data
+model:
+  name: resnet18
+  pretrained: false
